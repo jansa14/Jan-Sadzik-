@@ -1,0 +1,180 @@
+html>
+  <head>
+    <title>S-Brothers</title>
+    <style type="text/css">
+
+
+      body {
+        border-style: solid;
+        border-color: red;
+        border-width: 7, 5px;
+        background-color: black;
+      }
+
+      body a {
+        padding-left: 650px;
+        padding-right: 725px;
+        margin-top: 50px;
+        border-style: solid;
+        border-width: 7, 5px;
+        border-color: red;
+        background-color: #00BFFF ;
+        color: black;
+        text-decoration: none;
+      }
+      #Gesamt {
+        background-color: #00BFFF ;
+      }
+
+      .kopf {
+        text-align: center;
+        background-color: black;
+      }
+
+      .slide-left {
+        width: 100%;
+        overflow: hidden;
+        color: red;
+        background-color: black;
+      }
+      .slide-left h1 {
+        animation: slide-left 10s;
+        animation-iteration-count: 40;
+      }
+
+      @keyframes slide-left {
+        from {
+          margin-left: 100%;
+          width: 300%;
+        }
+        to {
+          margin-left: 5%;
+          width: 100%;
+        }
+
+      }
+
+      .slide-left:Hover{
+        color: white;
+      }
+
+
+      .linkerContainer {
+        float: left;
+        width: 40%;
+      }
+      .rechterContainer {
+        float: right;
+        width: 40%;
+      }
+      .rechterContainer video {
+        width: 475px;
+        max-width: 100%;
+        height: auto;
+      }
+
+      .rechterContainer img {
+        width: 475px;
+        max-width: 100%;
+        height: auto;
+      }
+
+      .linkerContainer img{
+        float: left;
+        max-width: 100%;
+        height: auto;
+
+      }
+      .kopf img {
+        max-width: 100%;
+        height: auto;
+      }
+      .clearFloat {
+        clear: both;
+        display: block;
+      }
+
+      @media print {
+
+      #Gesamt {
+        border-radius: 0;
+        padding: 10px;
+
+      }
+        img {
+
+          width: 50%;
+        }
+
+        .video, .slide-left, .Slide-left:hover {
+          display: none;
+
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="Gesamt">
+      <div class="kopf">
+        <img src="Bilder/Logo_1.jpg">
+      </div>
+
+      <div class="slide-left">
+        <h1>A DAY WITHOUT SNEAKER IS A BAD DAY</h1>
+      </div>
+
+      <div class="linkerContainer">
+        <h1>Welcome by S-Brothers</h1>
+        <p>
+          Peace Fam,wir haben alle eine grosse gemeinsamene Leidenschaft. Die
+          wir in Form eines eigenen Stores auf ein neues Level zu bringen. Mit
+          dem S-Brothers Store moechten wir die Kultur widerspiegel und Menschen
+          damit inspirieren und verbinden. Das wollen wir alles auf ein neues Level bringen
+          in Form eines Stores.
+        </p>
+      </div>
+      <div class="rechterContainer">
+        <video controls autoplay loop>
+      <source src="Bilder/Store opening.mov" type="video/ogg">
+      <source src="Bilder/Store opening.mov" type="video/mp4">
+      </video>
+      </div>
+      <span class="clearFloat"></span>
+      <div class="rechterContainer">
+        <h1>Praised the Culture</h1>
+        <p>
+          Wir als S-Brothers Store wollen mehr als ein Sneaker Store sein,
+          S-Brothers soll ein Anlaufstelle und Treffpunkt dienen, fuer austausch
+          von Sammlern. Gefuehrt von Sammlern fuer Sammler, Ihr habt Fragen zum
+          Wert eurer Sneaker oder brauchst Anfaenger-Tipps? Wir helfen!
+        </p>
+      </div>
+      <div class="linkerContainer">
+        <img src="Bilder/Kultur.jpg"/>
+      </div>
+      <span class="clearFloat"></span>
+      <div class="linkerContainer">
+        <h1>Verbidung mit sneaker und der Rap Szene</h1>
+        <p>
+          Dass der Musikgeschmack auch einen grossen Einfluss auf den
+          Kleidungsstil vieler Menschen hat ist in der Heutigen zeit Normal. Die
+          Musiker gaben mit ihrem Kleidungsstil den Dresscode der Szene vor und
+          die Fans wollen aussehen wie ihre geliebten Idole. 2003 gehoerte 50
+          Cent durch sein Erfolgsalbum Get Rich Or Die Tryin zu den
+          angesagtesten Musikern ueberhaupt und entschloss sich ebenfalls zu
+          einer Modelinie. Im Bereich Sneaker war Reebok der Partner des Vertrauens.
+          Der Schuh wurde weit ueber die Grenzen Amerikas hinaus erfolgreich und
+          selbst in Deutschland war er nicht mehr von den Strassen wegzudenken.
+        </p>
+      </div>
+      <div class="rechterContainer">
+        <img src="Bilder/50_Cent.jpg" />
+      </div>
+      <span class="clearFloat"></span>
+      <audio  controls: none autoplay loop >
+        <source src="Bilder/Drake.ogg" type="audio/ogg" >
+          <source src="Bilder/Drake.mp3" type="audio/mpeg">
+    </audio>
+    </div>
+  </body>
+</html>
